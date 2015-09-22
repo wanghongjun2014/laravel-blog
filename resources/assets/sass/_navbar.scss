@@ -1,0 +1,55 @@
+.navbar .navbar-nav > li > a {
+    color: $color;
+    @include transition(color 0.4s);
+
+    &:hover {
+        color: $active-color;    
+    }
+}
+
+.navbar {
+    background: $navbar-background;
+    padding: $navbar-padding;
+    @include opacity($navbar-opacity);
+}
+
+.navbar .avatar {
+    width: 25px;
+    height: 25px;
+}
+
+.navbar-brand {
+    margin-top: $navbar-brand-margin-top;
+}
+
+.navbar-brand small {
+    font-size: $navbar-brand-small-font-size;
+}
+
+.navbar .search {
+    width: 20px;
+    @include transition(all .3s ease);
+    border: 1px solid #fff;
+    box-shadow: none;
+    background: url("/images/search-icon.jpg") no-repeat 10px 8px;
+    padding: 0 5px 0 35px;
+    color: #fff;
+    margin-top: 8px;
+
+    &:focus {
+        width: 180px;
+        border: 1px solid #eaeaea;
+        @include transition(all .3s ease);
+        color: #c8c8c8;
+        margin-left: 10px;
+    }
+
+    // width: $navbar-search-width;
+    // padding: $navbar-search-padding;
+
+    // .form-control:focus,
+    // .form-control:active {
+    //     outline: none !important;
+    //     box-shadow: none !important;
+    // }
+}

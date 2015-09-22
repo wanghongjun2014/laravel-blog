@@ -1,0 +1,22 @@
+.widget-profile {
+    padding: $widget-profile-padding;
+    
+    .cover {
+        background-size: cover;
+        height: $widget-profile-cover-height;
+
+        .avatar img {
+            position: relative;
+            top: $widget-profile-cover-avatar-img-top;
+            left: $widget-profile-cover-avatar-img-left;
+            margin-left: $widget-profile-cover-avatar-img-margin-left;
+            width: $widget-profile-cover-avatar-img-width;
+            height: $widget-profile-cover-avatar-img-height;
+            border: $widget-profile-cover-avatar-img-border;
+        }
+    }
+    
+    .bio {
+        padding: $widget-profile-bio-padding;
+    }
+}

@@ -1,0 +1,15 @@
+footer {
+	padding: $footer-padding;
+	background-color: $background-color-dark;
+
+	.copyright {
+
+	}
+
+	@media (min-width: 768px) {
+		.fllowme {
+			float: right;
+			margin-right: 30px;
+		}
+	}
+}

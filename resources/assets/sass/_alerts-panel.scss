@@ -1,0 +1,6 @@
+.alerts-panel {
+	position: fixed;
+	left: $alert-panel-left;
+	bottom: $alert-panel-bottom;
+	z-index: $alert-panel-z-index;
+}
